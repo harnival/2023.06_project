@@ -43,26 +43,26 @@ $(document).ready(function () {
 });
 
 function openWindow1() {
-  window.open("/t_hotel/t_hotel_reser01.html", "_blank");
+  window.open("./t_hotel/t_hotel_reser01.html", "_blank");
 }
 function openWindow2() {
-  window.open("/t_hotel/t_hotel_reser01.html", "_blank");
+  window.open("./t_hotel/t_hotel_reser01.html", "_blank");
 }
 function openWindow3() {
-  window.open("/t_hotel/t_hotel_reser01.html", "_blank");
+  window.open("./t_hotel/t_hotel_reser01.html", "_blank");
 }
 function openWindow4() {
-  window.open("/t_hotel/t_hotel_reser01.html", "_blank");
+  window.open("./t_hotel/t_hotel_reser01.html", "_blank");
 }
 function openWindow5() {
-  window.open("/t_hotel/t_hotel_reser01.html", "_blank");
+  window.open("./t_hotel/t_hotel_reser01.html", "_blank");
 }
 function openWindow6() {
-  window.open("/h_ho/h_ho_room_03.html", "_blank");
+  window.open("./h_ho/h_ho_room_03.html", "_blank");
 }
 function openWindow7() {
-  window.open("/h_ho/h_ho_room_02.html", "_blank");
+  window.open("./h_ho/h_ho_room_02.html", "_blank");
 }
 function openWindow8() {
-  window.open("/h_ho/h_spec_main.html", "_blank");
+  window.open("./h_ho/h_spec_main.html", "_blank");
 }
