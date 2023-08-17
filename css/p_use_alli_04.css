@@ -136,7 +136,7 @@ a:hover {
 }
 
 .main_title_img {
-  background: url(/image/p_use_alli_04/brick-street.webp) center/cover no-repeat;
+  background: url(../image/p_use_alli_04/brick-street.webp) center/cover no-repeat;
   margin-top: 90px;
   width: 100vw;
   display: flex;

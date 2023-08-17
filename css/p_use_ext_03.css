@@ -62,7 +62,7 @@ main .cont_section .inner .section_2 {
 main .cont_section .inner .section_2 .image_price {
   width: 650px;
   height: 650px;
-  background-image: url('/image/p_use_ext_03/section_img/1.jpg');
+  background-image: url('../image/p_use_ext_03/section_img/1.jpg');
   display: flex;
   justify-content: end;
 }

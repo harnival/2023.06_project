@@ -10,7 +10,7 @@ main {
 .title_wrap {
     width: 100%;
     height: 33vh;
-    background: url('/image/t_hotel_reser01/hotel-main-2.png') no-repeat top 40% center/ cover;
+    background: url('../image/t_hotel_reser01/hotel-main-2.png') no-repeat top 40% center/ cover;
 }
 .title {
     max-width: var(--main-max-width);
@@ -115,7 +115,7 @@ fieldset > div {
     font-weight: 400;
 }
 #hotelForm_arrive_time {
-    background:white url("/image/t_hotel_reser02/arrow_drop_down.png") no-repeat center right / 1.5rem;
+    background:white url("../image/t_hotel_reser02/arrow_drop_down.png") no-repeat center right / 1.5rem;
     cursor: pointer;
 }
 .inputBox label strong {
@@ -184,7 +184,7 @@ fieldset > div {
     position: absolute;
     top: 0px;
     left: -2rem;
-    background: url("/image/t_hotel_reser02/close_button.png") no-repeat center/100%;
+    background: url("../image/t_hotel_reser02/close_button.png") no-repeat center/100%;
 }
 .check_list {
     background-color: white;
@@ -284,7 +284,7 @@ fieldset > div {
 
     float: left;
     padding: 0.5rem 2rem 0.5rem 4rem;
-    background:rgba(238, 238, 238, 0.4) url("/image/t_use_reser01_0/arrow_back_3.png") no-repeat center left 1rem / 2em 1.5em;
+    background:rgba(238, 238, 238, 0.4) url("../image/t_use_reser01_0/arrow_back_3.png") no-repeat center left 1rem / 2em 1.5em;
 }
 .btnBox a:hover {
     background-color: rgba(0, 128, 0, 0.4);

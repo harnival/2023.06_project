@@ -9,7 +9,7 @@
   /* 메인 이미지 */
   /* 이미지는 본인 폴더에 있는 메인 이미지쓰시면 됩니동 */
   .main_title_img {
-    background: url(/image/p_enj_theme_02/p_enj_theme_02_00.png)
+    background: url(../image/p_enj_theme_02/p_enj_theme_02_00.png)
       center/cover no-repeat;
     margin-top: 90px;
     width: 100vw;
@@ -80,7 +80,7 @@
 .sp_a{
     width: 15rem;
     height: 150px;
-    background: url(/image/etc/tab_red.png) no-repeat center/100%;
+    background: url(../image/etc/tab_red.png) no-repeat center/100%;
     background-size: contain;
     margin: 0 auto;
     border: 0;
@@ -89,7 +89,7 @@
 .di_a{
     width: 15rem;
     height: 150px;
-    background: url(/image/etc/tab_blue.png) no-repeat center/100%;
+    background: url(../image/etc/tab_blue.png) no-repeat center/100%;
     background-size: contain;
     margin: 0 auto;
     border: 0;

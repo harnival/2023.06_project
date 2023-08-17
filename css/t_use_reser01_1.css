@@ -128,7 +128,7 @@
   text-decoration: none;
   width: 25%;
   height: 100%;
-  background: rgba(255,255,255) url("/image/t_use_reser01_1/info.png") no-repeat left 5% center/ 1rem;
+  background: rgba(255,255,255) url("../image/t_use_reser01_1/info.png") no-repeat left 5% center/ 1rem;
   box-sizing: border-box;        
   font-size: 100%;
   opacity: 0.5;

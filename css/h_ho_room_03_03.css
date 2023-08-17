@@ -104,7 +104,7 @@ p {
 }
 
 .main_title_img {
-  background: url(/image/h_ho_room_03/dsc03850.webp) center/cover no-repeat;
+  background: url(../image/h_ho_room_03/dsc03850.webp) center/cover no-repeat;
   margin-top: 90px;
   width: 100vw;
   display: flex;

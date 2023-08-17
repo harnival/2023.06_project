@@ -20,7 +20,7 @@ a {
 /* 메인 이미지 */
 /* 이미지는 본인 폴더에 있는 메인 이미지쓰시면 됩니동 */
 .main_title_img {
-  background: url("/image/p_enj_theme_01/p_enj_theme_01_01.jpg") center/cover
+  background: url("../image/p_enj_theme_01/p_enj_theme_01_01.jpg") center/cover
     no-repeat;
   margin-top: 90px;
   width: 100vw;
@@ -104,7 +104,7 @@ a {
     color: #fff;
     justify-content: center;
     align-items: center;
-    background-image: url("/image/p_enj_theme_01/rectangle_green-removebg-preview.png");
+    background-image: url("../image/p_enj_theme_01/rectangle_green-removebg-preview.png");
     z-index: 100;
   }
   .sel_loc_item > a:hover {
@@ -118,7 +118,7 @@ a {
     color: #fff;
     justify-content: center;
     align-items: center;
-    background-image: url("/image/p_enj_theme_01/rectangle_red-removebg-half.png");
+    background-image: url("../image/p_enj_theme_01/rectangle_red-removebg-half.png");
     z-index: 100;
     margin: 5px;
     font-size: large;
@@ -156,7 +156,7 @@ a {
     color: #fff;
     justify-content: center;
     align-items: center;
-    background-image: url("/image/p_enj_theme_01/rectangle_blue-removebg-preview.png");
+    background-image: url("../image/p_enj_theme_01/rectangle_blue-removebg-preview.png");
   }
   .sel_hei_item > a:hover {
     font-weight: 700;
@@ -176,7 +176,7 @@ a {
     font-size: 24px;
   }
   .aactive {
-    background-image: url("/image/p_enj_theme_01/rectangle_yell-removebg-preview.png") !important;
+    background-image: url("../image/p_enj_theme_01/rectangle_yell-removebg-preview.png") !important;
     color: #fff;
     font-weight: bold;
   }
@@ -406,7 +406,7 @@ a {
     color: #fff;
     justify-content: center;
     align-items: center;
-    background-image: url("/image/p_enj_theme_01/rectangle_green-removebg-preview.png");
+    background-image: url("../image/p_enj_theme_01/rectangle_green-removebg-preview.png");
     z-index: 100;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -423,7 +423,7 @@ a {
     color: #fff;
     justify-content: center;
     align-items: center;
-    background-image: url("/image/p_enj_theme_01/rectangle_red-removebg-half.png");
+    background-image: url("../image/p_enj_theme_01/rectangle_red-removebg-half.png");
     z-index: 100;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -457,7 +457,7 @@ a {
     color: #fff;
     justify-content: center;
     align-items: center;
-    background-image: url("/image/p_enj_theme_01/rectangle_blue-removebg-preview.png");
+    background-image: url("../image/p_enj_theme_01/rectangle_blue-removebg-preview.png");
     margin-bottom: 5px;
     margin: auto;
   }
@@ -474,7 +474,7 @@ a {
     font-size: 24px;
   }
   .aactive {
-    background-image: url("/image/p_enj_theme_01/rectangle_yell-removebg-preview.png") !important;
+    background-image: url("../image/p_enj_theme_01/rectangle_yell-removebg-preview.png") !important;
     color: #fff;
     font-weight: bold;
   }
@@ -616,7 +616,7 @@ a {
     color: #fff;
     justify-content: center;
     align-items: center;
-    background-image: url("/image/p_enj_theme_01/rectangle_green-removebg-preview.png");
+    background-image: url("../image/p_enj_theme_01/rectangle_green-removebg-preview.png");
     z-index: 100;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -628,7 +628,7 @@ a {
   .sel_loc_item_map > a {
     margin-top: 15px;
     display: flex;
-    background-image: url("/image/p_enj_theme_01/rectangle_red-removebg-half.png");
+    background-image: url("../image/p_enj_theme_01/rectangle_red-removebg-half.png");
     width: 200px;
     height: 78px;
     /* box-sizing: border-box; */
@@ -663,7 +663,7 @@ a {
     color: #fff;
     justify-content: center;
     align-items: center;
-    background-image: url("/image/p_enj_theme_01/rectangle_blue-removebg-preview.png");
+    background-image: url("../image/p_enj_theme_01/rectangle_blue-removebg-preview.png");
     margin-bottom: 5px;
     margin: auto;
   }
@@ -680,7 +680,7 @@ a {
     font-size: 24px;
   }
   .aactive {
-    background-image: url("/image/p_enj_theme_01/rectangle_yell-removebg-preview.png") !important;
+    background-image: url("../image/p_enj_theme_01/rectangle_yell-removebg-preview.png") !important;
     color: #fff;
     font-weight: bold;
   }
