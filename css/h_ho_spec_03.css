@@ -132,7 +132,7 @@ a:hover {
 }
 
 .main_title_img {
-  background: url(/image/h_ho_spec_03/pg_main.png) center/cover no-repeat;
+  background: url(../image/h_ho_spec_03/pg_main.png) center/cover no-repeat;
   margin-top: 90px;
   width: 100vw;
   display: flex;

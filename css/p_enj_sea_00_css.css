@@ -9,7 +9,7 @@
 /* 메인 이미지 */
 /* 이미지는 본인 폴더에 있는 메인 이미지쓰시면 됩니동 */
 .main_title_img {
-  background: url(/image/p_enj_sea_00/p_enj_sea_00_00.jpg)
+  background: url(../image/p_enj_sea_00/p_enj_sea_00_00.jpg)
     center/cover no-repeat;
   margin-top: 90px;
   width: 100vw;

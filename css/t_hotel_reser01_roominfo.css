@@ -75,11 +75,11 @@
 }
 .slideback {
     left: 0px;
-    background: url("/image/t_hotel_reser01/arrow_back.png") no-repeat center/50%;
+    background: url("../image/t_hotel_reser01/arrow_back.png") no-repeat center/50%;
 }
 .slidenext {
     right: 0px;
-    background: url("/image/t_hotel_reser01/arrow_forward.png") no-repeat center/50%;
+    background: url("../image/t_hotel_reser01/arrow_forward.png") no-repeat center/50%;
 }
 .ri_e_t_slide ul {
     display: flex;
@@ -125,7 +125,7 @@
     width: 20px;
     aspect-ratio: 1/1;
 
-    background: url("/image/t_hotel_reser01/info.png") left center/ 20px no-repeat;
+    background: url("../image/t_hotel_reser01/info.png") left center/ 20px no-repeat;
     filter: contrast(10%);
     padding-right: 5px;
 }
@@ -164,7 +164,7 @@
     width: 30px;
     height: 30px;
     font-size: 0px;
-    background: rgb(250, 203, 164) url("/image/t_hotel_reser01/close_button.png") no-repeat center/20px;
+    background: rgb(250, 203, 164) url("../image/t_hotel_reser01/close_button.png") no-repeat center/20px;
     border-radius: 50%;
 }
 .ri_e_t_e_char dl{
@@ -311,7 +311,7 @@
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background: url("/image/t_hotel_reser01/info.png") no-repeat scroll center/ 1rem;
+    background: url("../image/t_hotel_reser01/info.png") no-repeat scroll center/ 1rem;
 }
 .ri_e_t_c_price {
     display: flex;

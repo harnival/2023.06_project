@@ -13,7 +13,7 @@ a{
   /* 메인 이미지 */
   /* 이미지는 본인 폴더에 있는 메인 이미지쓰시면 됩니동 */
   .main_title_img {
-    background: url("/image/p_cus_use_02/cancel_bg.jpg")
+    background: url("../image/p_cus_use_02/cancel_bg.jpg")
       center/cover no-repeat;
     margin-top: 90px;
     width: 100vw;
@@ -70,7 +70,7 @@ a{
 
 .refund_cancel_nav1>a{
     display: flex;
-    background: url("/image/p_cus_use_02/rectangle_yell-removebg-preview.png") no-repeat center/100%;
+    background: url("../image/p_cus_use_02/rectangle_yell-removebg-preview.png") no-repeat center/100%;
     width: 15rem;
     height:166px;
     text-align: center;
@@ -82,7 +82,7 @@ a{
 
 .refund_cancel_nav2>a{
     display: flex;
-    background: url("/image/p_cus_use_02/rectangle_green-removebg-preview.png") no-repeat center/ 100%;
+    background: url("../image/p_cus_use_02/rectangle_green-removebg-preview.png") no-repeat center/ 100%;
     width: 15rem;
     height:166px;
     text-align: center;
@@ -893,7 +893,7 @@ form legend{
     
     .refund_cancel_nav1>a{
         display: flex;
-        background: url("/image/p_cus_use_02/rectangle_yell-removebg-preview.png") no-repeat center/100%;
+        background: url("../image/p_cus_use_02/rectangle_yell-removebg-preview.png") no-repeat center/100%;
         width: 15rem;
         height:166px;
         text-align: center;
@@ -904,7 +904,7 @@ form legend{
     
     .refund_cancel_nav2>a{
         display: flex;
-        background: url("/image/p_cus_use_02/rectangle_green-removebg-preview.png") no-repeat center/ 100%;
+        background: url("../image/p_cus_use_02/rectangle_green-removebg-preview.png") no-repeat center/ 100%;
         width: 15rem;
         height:166px;
         text-align: center;

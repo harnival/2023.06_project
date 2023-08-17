@@ -140,7 +140,7 @@
     .vf02_exp > a::before {
       content: "";
         display: inline-block;
-        background: url("/image/t_use_reser01_5/arrow_drop_down.png") no-repeat center/30px;
+        background: url("../image/t_use_reser01_5/arrow_drop_down.png") no-repeat center/30px;
         width: 30px;
         height: 30px;
         opacity: 0.7;
@@ -180,7 +180,7 @@
       display: inline-block;
       position: absolute;
       left: -25px;
-      background: url("/image/t_use_reser01_5/arrow_drop_down.png") no-repeat center/25px;
+      background: url("../image/t_use_reser01_5/arrow_drop_down.png") no-repeat center/25px;
       width: 25px;
       height: 25px;
       opacity: 0.7;
@@ -190,7 +190,7 @@
         display: inline-block;
         position: absolute;
         left: -25px;
-        background: url("/image/t_use_reser01_5/arrow_drop_up.png") no-repeat center/25px;
+        background: url("../image/t_use_reser01_5/arrow_drop_up.png") no-repeat center/25px;
         width: 25px;
         height: 25px;
         opacity: 0.7;

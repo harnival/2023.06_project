@@ -1,6 +1,11 @@
 $(function(){
+<<<<<<< HEAD
   $("header").load("header/header.html");
   $("footer").load("footer/footer.html");
+=======
+  $("header").load("/header/header.html");
+  $("footer").load("/footer/footer.html");
+>>>>>>> 4111ae0ff834ffc096decb197924e0ad3387524e
 })
 
 // promotion section slide
