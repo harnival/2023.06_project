@@ -38,7 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffcf00;
+  /* background-color: #ffcf00; */
   position: relative;
 }
 #headerMain .top.open {
