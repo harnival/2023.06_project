@@ -1,7 +1,8 @@
-$(function(){
-  $("header").load("../header/header.html");
-  $("footer").load("../footer/footer.html");
-})
+
+document.onload = () => {
+  const header = document.querySelector("header");
+  fetch("../header/header.html").then(snapshot => snapshot.text()).then(res => header.innerHTML = res)
+}
 
 // promotion section slide
 $(document).ready(function(){
