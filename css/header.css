@@ -1,12 +1,12 @@
 /* COMMON */
-header div:not(.menu_icon) {
+#headerMain div:not(.menu_icon) {
   font-family: "Noto Sans KR", sans-serif;
 }
-header a {
+#headerMain a {
   color: #000;
   text-decoration: none;
 }
-header a:not(.buy):hover {
+#headerMain a:not(.buy):hover {
   color: #000;
   text-decoration: underline;
 }
@@ -17,8 +17,8 @@ header a:not(.buy):hover {
 }
 /* COMMON */
 
-/* HEADER */
-header {
+/* #headerMain */
+#headerMain {
   width: 100%;
   height: 10vh;
   position: fixed;
@@ -26,12 +26,12 @@ header {
   z-index: 8000;
   transition: height 0.5s;
 }
-header.open {
+#headerMain.open {
   height: 90vh;
   z-index: 8000;
   transition: height 0.5s;
 }
-header .top {
+#headerMain .top {
   width: 100%;
   height: 10vh;
   box-sizing: border-box;
@@ -41,10 +41,10 @@ header .top {
   background-color: #ffcf00;
   position: relative;
 }
-header .top.open {
+#headerMain .top.open {
   background-color: #ffcf00;
 }
-header .top .menu_icon {
+#headerMain .top .menu_icon {
   font-size: 50px;
   color: #fff;
   display: flex;
@@ -55,10 +55,10 @@ header .top .menu_icon {
   position: absolute;
   left: 50px;
 }
-header .top .menu_icon:hover {
+#headerMain .top .menu_icon:hover {
   color: rgba(51, 51, 51, 1);
 }
-header .top .logo {
+#headerMain .top .logo {
   width: 163px;
   height: 70px;
   margin: 0 auto;
@@ -70,31 +70,31 @@ header .top .logo {
   left: -33px;
   right: 0;
 }
-header .top .logo img {
+#headerMain .top .logo img {
   width: 163px;
   height: 70px;
 }
-header .bottom {
+#headerMain .bottom {
   width: 100%;
   height: 0;
   background-color: #fff5ca;
   overflow: hidden;
   transition: all 0.5s;
 }
-header .bottom.open {
+#headerMain .bottom.open {
   height: 90vh;
   z-index: 8500;
   transition: all 0.5s;
 }
-header .bottom .category {
+#headerMain .bottom .category {
   background-color: #ffc400;
 }
-header .bottom .category .inner {
+#headerMain .bottom .category .inner {
   display: flex;
   justify-content: center;
 }
-header .bottom .category .select_1,
-header .bottom .category .select_2 {
+#headerMain .bottom .category .select_1,
+#headerMain .bottom .category .select_2 {
   width: 100%;
   text-align: center;
   font-size: 32px;
@@ -103,19 +103,19 @@ header .bottom .category .select_2 {
   box-sizing: border-box;
   cursor: pointer;
 }
-header .bottom .category .select_1 {
+#headerMain .bottom .category .select_1 {
   text-decoration: underline;
   color: #fff;
   background-color: #ff6f00;
 }
-header .bottom .category .select_2 {
+#headerMain .bottom .category .select_2 {
   background-color: #00a138;
 }
-body header .bottom .category .select.activeSel {
+body #headerMain .bottom .category .select.activeSel {
   text-decoration: underline;
   color: #555;
 }
-header .bottom .category .buy span {
+#headerMain .bottom .category .buy span {
   display: flex;
   align-items: center;
   padding-left: 7rem;
@@ -127,7 +127,7 @@ header .bottom .category .buy span {
   background: url("../image/ticket_icon.png") no-repeat top 0.7rem left 1rem/ 5rem
     5rem;
 }
-header .bottom .category .buy {
+#headerMain .bottom .category .buy {
   position: fixed;
   bottom: 10%;
   right: 5%;
@@ -139,16 +139,16 @@ header .bottom .category .buy {
   transition: 0.5s ease;
   overflow: hidden;
 }
-header .bottom .category .buy:hover {
+#headerMain .bottom .category .buy:hover {
   width: 14vw;
 }
-header .bottom .menus {
+#headerMain .bottom .menus {
   box-sizing: border-box;
 }
-header .bottom .menu .inner {
+#headerMain .bottom .menu .inner {
   position: relative;
 }
-header .bottom .menu .park_menu {
+#headerMain .bottom .menu .park_menu {
   display: flex;
   width: 100%;
   height: 100vh;
@@ -159,40 +159,40 @@ header .bottom .menu .park_menu {
   top: 0;
   z-index: 3;
 }
-header .bottom .menu .park_menu.active {
+#headerMain .bottom .menu .park_menu.active {
   display: flex;
 }
-header .bottom .menu .park_menu > li {
+#headerMain .bottom .menu .park_menu > li {
   width: 500px;
   height: 550px;
   padding: 0 100px;
   box-sizing: border-box;
   border-right: 1px solid #aaa;
 }
-header .bottom .menu .park_menu > li:last-child {
+#headerMain .bottom .menu .park_menu > li:last-child {
   border-right: none;
 }
-header .bottom .menu .park_menu li .park_1_title {
+#headerMain .bottom .menu .park_menu li .park_1_title {
   font-size: 24px;
   font-weight: 700;
   /* margin: 50px 0; */
 }
-header .bottom .menu .park_menu li .park_2 .park_2_title {
+#headerMain .bottom .menu .park_menu li .park_2 .park_2_title {
   font-size: 24px;
   font-weight: 400;
   margin: 30px 0 30px 0;
   color: #000;
 }
-header .bottom .menu .park_menu li .park_2 .park_3 li {
+#headerMain .bottom .menu .park_menu li .park_2 .park_3 li {
   margin: 15px 0;
   padding-left: 1rem;
   color: #000;
 }
-header .bottom .menu .park_menu li .park_2 .park_3 li a {
+#headerMain .bottom .menu .park_menu li .park_2 .park_3 li a {
   font-size: 16px;
   color: #000;
 }
-header .bottom .menu .hotel_menu {
+#headerMain .bottom .menu .hotel_menu {
   display: none;
   width: 100%;
   height: 100vh;
@@ -202,42 +202,42 @@ header .bottom .menu .hotel_menu {
   top: 0;
   z-index: 3;
 }
-header .bottom .menu .hotel_menu.active {
+#headerMain .bottom .menu .hotel_menu.active {
   display: flex;
 }
-header .bottom .menu .hotel_menu > li {
+#headerMain .bottom .menu .hotel_menu > li {
   height: 550px;
   padding: 0 100px;
   border-right: 1px solid #aaa;
   word-break: keep-all;
   white-space: nowrap;
 }
-header .bottom .menu .hotel_menu > li:last-child {
+#headerMain .bottom .menu .hotel_menu > li:last-child {
   width: 350px;
   border-right: none;
 }
-header .bottom .menu .hotel_menu li .hotel_1_title {
+#headerMain .bottom .menu .hotel_menu li .hotel_1_title {
   font-size: 24px;
   font-weight: 700;
   margin: 0 0 30px 0;
 }
-header .bottom .menu .hotel_menu li .hotel_2 > li > .hotel_2_title {
+#headerMain .bottom .menu .hotel_menu li .hotel_2 > li > .hotel_2_title {
   display: block;
   font-size: 24px;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
-header .bottom .menu .hotel_menu li .hotel_2 > li > .hotel_2_title.partner {
+#headerMain .bottom .menu .hotel_menu li .hotel_2 > li > .hotel_2_title.partner {
   margin-top: 50px;
 }
-header .bottom .menu .hotel_menu li .hotel_2 .hotel_3 {
+#headerMain .bottom .menu .hotel_menu li .hotel_2 .hotel_3 {
   margin: 60px 0 0 0;
 }
-header .bottom .menu .hotel_menu li .hotel_2 .hotel_3 li {
+#headerMain .bottom .menu .hotel_menu li .hotel_2 .hotel_3 li {
   margin: 15px 0;
   padding-left: 1rem;
 }
-header .bottom .menu .hotel_menu li .hotel_2 .hotel_3 li a {
+#headerMain .bottom .menu .hotel_menu li .hotel_2 .hotel_3 li a {
   font-size: 16px;
 }
-/* HEADER */
+/* #headerMain */

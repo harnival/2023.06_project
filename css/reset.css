@@ -104,5 +104,5 @@ table {
   border-spacing: 0;
 }
 header {
-  z-index: 9000;
+  z-index: 5000;
 }

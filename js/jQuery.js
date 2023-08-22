@@ -1,6 +1,6 @@
 $(function(){
-  $("header").load("header/header.html #headerMain");
-  $("footer").load("footer/footer.html");
+  $("header").load("../header/header.html #headerMain");
+  $("footer").load("../footer/footer.html");
 })
 
 // promotion section slide
